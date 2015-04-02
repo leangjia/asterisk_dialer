@@ -1,9 +1,9 @@
-Odoo Telemarketing Application
+Odoo电话营销模块基于Asterisk APP
 ====================
 
-[Asterisk IP-PBX](http://asterisk.org) based dialer for [Odoo](http://odoo.com). 
+可在[Odoo](http://odoo.com)中直接打电话进行电话营销的[Asterisk IP-PBX](http://asterisk.org) 模块。
 
-## Introduction
+## 简介
 This application is used to manage telemarketing campaigns e.g. call customers and playback a pre-recorded voice message or connect answered calls to operators. Other use cases are also possible as new features can be easily implemented using custom Asterisk dial plan.
 
 This application uses Asterisk RESTful Interface (ARI) and requires **Asterisk v12** and newer. It is implemented inside Odoo using Python threads and does not have separate software components. 
@@ -11,11 +11,11 @@ This application uses Asterisk RESTful Interface (ARI) and requires **Asterisk v
 *That's why You have to run Odoo in threaded mode devoted to one database disabling **workers** option and settings **dbfilter** option in Odoo configuration (see example of confoguration file below).*
 
 ## Software requirements and installation
-Requirements:
+需满足以下环境：
 
-* [ari-py](https://github.com/asterisk/ari-py) (pip install ari)
-* [Odoo 8.0](https://github.com/odoo/odoo/tree/8.0/)
-* Asterisk v.12/13 with func_curl enabled.
+* 服务器需要安装[ari-py](https://github.com/asterisk/ari-py) (安装命令pip install ari)
+* 基于[Odoo 8.0](https://github.com/odoo/odoo/tree/8.0/)（Ps：7.0的叫OpenERP，请参考https://www.odoo.com/apps/modules?price=Free&search=asterisk）
+* Asterisk v.12/13 请将 func_curl 开启。
 
 Installation:
 
