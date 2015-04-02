@@ -14,7 +14,9 @@ This application uses Asterisk RESTful Interface (ARI) and requires **Asterisk v
 需满足以下环境：
 
 * 服务器需要安装[ari-py](https://github.com/asterisk/ari-py) (安装命令pip install ari)
-* 基于[Odoo 8.0](https://github.com/odoo/odoo/tree/8.0/)（Ps：7.0的叫OpenERP，请参考https://www.odoo.com/apps/modules?price=Free&search=asterisk）
+* 基于[Odoo 8.0](https://github.com/odoo/odoo/tree/8.0/)（Ps：OpenERP 6.1: https://code.launchpad.net/ openerp-asterisk-team / openerp-asterisk-connector / 6.1
+
+OpenERP 7.0: https://code.launchpad.net/ openerp-asterisk-team / openerp-asterisk-connector / 7.0 ）
 * Asterisk v.12/13 请将 func_curl 开启。
 
 Installation:
